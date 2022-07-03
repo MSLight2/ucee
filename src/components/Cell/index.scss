@@ -1,0 +1,75 @@
+@import '../../styles/var';
+@import '../../styles/mixin';
+
+.ucee-cell{
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: $cell-top-padding $cell-up-padding;
+  box-sizing: border-box;
+  line-height: $cell-line-height;
+  font-size: $cell-font-size;
+  background-color: $white;
+  color: $text-color;
+  overflow: hidden;
+
+  &::after {
+    @include hairline('bottom', $gray-3, 16px, 16px);
+  }
+  &:last-child::after,
+  &--borderless{
+    display: none;
+  }
+  &__title,
+  &__value{
+    flex: 1;
+  }
+  &__title{
+    .ucee-icon{
+      vertical-align: middle;
+      margin-right: 4px;
+    }
+  }
+  &__value{
+    position: relative;
+    color: $cell-value-color;
+    text-align: right;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  &__label{
+    margin-top: $cell-label-margin-top;
+    color: $cell-value-color;
+    line-height: $cell-label-line-height;
+    font-size: $cell-label-font-size;
+  }
+  &__img{
+    display: inline-block;
+    width: $cell-img-size;
+    height: $cell-img-size;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+  &--large{
+    padding-top: $cell-large-top-padding;
+    padding-bottom: $cell-large-top-padding;
+    .ucee-cell__title{
+      font-size: $cell-font-size + 2;
+    }
+    .ucee-cell__label{
+      font-size: $cell-label-font-size + 2;
+    }
+  }
+  &--icon-right{
+    color: $cell-icon-color;
+    line-height: $cell-line-height;
+  }
+  &--center{
+    align-items: center;
+  }
+  &--active{
+    &:active{
+      background: $gray-2;
+    }
+  }
+}

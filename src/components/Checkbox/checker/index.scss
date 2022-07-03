@@ -1,0 +1,81 @@
+@import '../../../styles/var';
+
+$checkerSize: 1em !default;
+@mixin uceeChekerStyleMixin ($prefix-cls: '#{$prefix-cls}') {
+  .#{$prefix-cls}{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    &__wrapper{
+      display: inline-flex;
+      align-items: center;
+      box-sizing: border-box;
+      margin-right: 8px;
+      cursor: pointer;
+    }
+    &__input{
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      opacity: 0;
+      cursor: pointer;
+      &:checked + .#{$prefix-cls}__inner{
+        border-color: inherit;
+        .#{$prefix-cls}__inner-active,
+        .#{$prefix-cls}__inner-custome{
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+    }
+    &__inner{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: $checkerSize;
+      width: $checkerSize;
+      line-height: $checkerSize;
+      border: 1px solid $gray-5;
+      border-radius: 50%;
+      color: $blue;
+      transition: all .3s cubic-bezier(.78,.14,.15,.86);
+      &-active{
+        position: relative;
+        width: $checkerSize / 2;
+        height: $checkerSize / 2;
+        border-radius: 50%;
+        background: $blue;
+        transform: scale(0);
+        opacity: 0;
+        transition: all .3s cubic-bezier(.78,.14,.15,.86);
+      }
+      &-custome{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: scale(0);
+        opacity: 0;
+        transition: all .3s cubic-bezier(.78,.14,.15,.86);
+      }
+    }
+    &__text{
+      margin-left: 8px;
+      line-height: 20px;
+      color: $gray-8;
+    }
+    &--disabled{
+      pointer-events: none;
+      .#{$prefix-cls}__text{
+        color: $gray-5;
+      }
+    }
+    &--square{
+      .#{$prefix-cls}__inner{
+        border-radius: initial;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@mixin tab-plain ($baseClass) {
+  &.#{$baseClass}{
+    &--primary{
+      color: $tag-primary-color;
+    }
+    &--success{
+      color: $tag-success-color;
+    }
+    &--danger{
+      color: $tag-danger-color;
+    }
+    &--warning{
+      color: $tag-warning-color;
+    }
+  }
+}

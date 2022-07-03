@@ -1,0 +1,925 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxGroup demo test 1`] = `
+Array [
+  <div>
+    option配置
+  </div>,
+  <div
+    className="ucee-checkboxroup"
+  >
+    <div
+      className="ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            name="radioGroup1"
+            onChange={[Function]}
+            type="checkbox"
+            value="A"
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          option1
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            name="radioGroup1"
+            onChange={[Function]}
+            type="checkbox"
+            value="B"
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          option2
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            name="radioGroup1"
+            onChange={[Function]}
+            type="checkbox"
+            value="C"
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          option3
+        </span>
+      </label>
+    </div>
+  </div>,
+  <div
+    className="ucee-checkboxroup"
+  >
+    <div
+      className="ucee-checkbox--disabled ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            disabled={true}
+            name="radioGroup"
+            onChange={[Function]}
+            type="checkbox"
+            value="B"
+          />
+          <span
+            className="ucee-checkbox__inner"
+            style={
+              Object {
+                "color": "#c8c9cc",
+              }
+            }
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          B
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--disabled ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            disabled={true}
+            name="radioGroup"
+            onChange={[Function]}
+            type="checkbox"
+            value="E"
+          />
+          <span
+            className="ucee-checkbox__inner"
+            style={
+              Object {
+                "color": "#c8c9cc",
+              }
+            }
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          E
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--disabled ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            disabled={true}
+            name="radioGroup"
+            onChange={[Function]}
+            type="checkbox"
+            value="F"
+          />
+          <span
+            className="ucee-checkbox__inner"
+            style={
+              Object {
+                "color": "#c8c9cc",
+              }
+            }
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          F
+        </span>
+      </label>
+    </div>
+  </div>,
+  <div
+    className="ucee-checkboxroup"
+  >
+    <div
+      className="ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            defaultChecked={false}
+            name="radioGroup3"
+            onChange={[Function]}
+            type="checkbox"
+            value="B"
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          B
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--checked ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            defaultChecked={true}
+            name="radioGroup3"
+            onChange={[Function]}
+            type="checkbox"
+            value="E"
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          E
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--checked ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            defaultChecked={true}
+            name="radioGroup3"
+            onChange={[Function]}
+            type="checkbox"
+            value="F"
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          F
+        </span>
+      </label>
+    </div>
+  </div>,
+  <div>
+    水平展示
+  </div>,
+  <div
+    className="ucee-checkboxroup ucee-checkboxroup--horizontal"
+  >
+    <div
+      className="ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            name="radioGroup-horizontal"
+            onChange={[Function]}
+            type="checkbox"
+            value="A"
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          option1
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            name="radioGroup-horizontal"
+            onChange={[Function]}
+            type="checkbox"
+            value="B"
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          option2
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            name="radioGroup-horizontal"
+            onChange={[Function]}
+            type="checkbox"
+            value="C"
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          option3
+        </span>
+      </label>
+    </div>
+  </div>,
+  <div>
+    组合Radio
+  </div>,
+  <div
+    className="ucee-checkboxroup"
+  >
+    <div
+      className="ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            onChange={[Function]}
+            type="checkbox"
+            value={1}
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          默认
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            onChange={[Function]}
+            type="checkbox"
+            value={2}
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          默认
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            onChange={[Function]}
+            type="checkbox"
+            value={3}
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          默认
+        </span>
+      </label>
+    </div>
+  </div>,
+  <div>
+    disabled
+  </div>,
+  <div
+    className="ucee-checkboxroup"
+  >
+    <div
+      className="ucee-checkbox--disabled ucee-checkbox--checked ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            defaultChecked={true}
+            disabled={true}
+            onChange={[Function]}
+            type="checkbox"
+            value={1}
+          />
+          <span
+            className="ucee-checkbox__inner"
+            style={
+              Object {
+                "color": "#c8c9cc",
+              }
+            }
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          禁用
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--disabled ucee-checkbox--checked ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            defaultChecked={true}
+            disabled={true}
+            onChange={[Function]}
+            type="checkbox"
+            value={2}
+          />
+          <span
+            className="ucee-checkbox__inner"
+            style={
+              Object {
+                "color": "#c8c9cc",
+              }
+            }
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          禁用
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--disabled ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            defaultChecked={false}
+            disabled={true}
+            onChange={[Function]}
+            type="checkbox"
+            value={3}
+          />
+          <span
+            className="ucee-checkbox__inner"
+            style={
+              Object {
+                "color": "#c8c9cc",
+              }
+            }
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          禁用
+        </span>
+      </label>
+    </div>
+  </div>,
+  <div>
+    onChange
+  </div>,
+  <div
+    className="ucee-checkboxroup"
+  >
+    <div
+      className="ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            defaultChecked={false}
+            onChange={[Function]}
+            type="checkbox"
+            value="change1"
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          change1
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--checked ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            defaultChecked={true}
+            onChange={[Function]}
+            type="checkbox"
+            value="change2"
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          change2
+        </span>
+      </label>
+    </div>
+    <div
+      className="ucee-checkbox--checked ucee-checkbox--square"
+    >
+      <label
+        className="ucee-checkbox__wrapper"
+      >
+        <span
+          className="ucee-checkbox"
+        >
+          <input
+            className="ucee-checkbox__input"
+            defaultChecked={true}
+            onChange={[Function]}
+            type="checkbox"
+            value="change3"
+          />
+          <span
+            className="ucee-checkbox__inner"
+          >
+            <i
+              className="ucee-checkbox__inner-custome"
+            >
+              <i
+                className="ucee-icon ucee-icon-right"
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              />
+            </i>
+          </span>
+        </span>
+        <span
+          className="ucee-checkbox__text"
+        >
+          change3
+        </span>
+      </label>
+    </div>
+  </div>,
+]
+`;

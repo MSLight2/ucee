@@ -1,0 +1,54 @@
+@import '../../styles/var';
+@import '../../styles/mixin';
+
+.ucee-search{
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: $search-padding;
+  background-color: $search-bg-color;
+  font-size: 14px;
+  &__content{
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 5px 8px 5px 12px;
+    background: $search-content-bg-color;
+  }
+  &__lable{
+    padding: 0 5px;
+    color: $gray-8;
+    line-height: $search-action-line-height;
+  }
+  &__input{
+    @include inputRest();
+    flex: 1;
+    height: $search-action-line-height;
+    &-clear{
+      padding-right: 20px;
+    }
+  }
+  &__action{
+    padding: 0 8px;
+    color: $gray-8;
+    line-height: $search-action-line-height;
+    user-select: none;
+    cursor: pointer;
+  }
+  &--round{
+    border-radius: $border-radius-max;
+  }
+  &--disable{
+    pointer-events: none;
+    color: $gray-6;
+  }
+  &--clear{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: $gray-5;
+  }
+}

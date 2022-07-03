@@ -1,0 +1,36 @@
+@import '../../styles/var';
+
+.ucee-rate{
+  display: inline-flex;
+  flex-wrap: wrap;
+  user-select: none;
+  cursor: pointer;
+  &__item{
+    position: relative;
+    color: $rate-default-color;
+    &:not(:last-child) {
+      padding-right: $rate-padding;
+    }
+  }
+  &--half{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+    color: transparent;
+  }
+  &--disabled{
+    pointer-events: none;
+    color: $gray-6;
+    .ucee-rate--active{
+      color: $gray-6;
+    }
+  }
+  &--readOnly{
+    pointer-events: none;
+  }
+  &--active{
+    color: $rate-default-active-color;
+  }
+}

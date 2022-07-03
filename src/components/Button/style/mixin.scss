@@ -1,0 +1,43 @@
+@import '../../../styles/mixin';
+
+@mixin border-hairline {
+  &::after{
+    @include hairline('all');
+  }
+}
+@mixin btn-plan ($baseClass) {
+  &.#{$baseClass}{
+    &--default{
+      border-color: $text-color;
+    }
+    &--primary{
+      color: $button-primary-color;
+    }
+    &--info{
+      color: $button-info-color;
+    }
+    &--warning{
+      color: $button-warning-color;
+    }
+    &--danger{
+      color: $button-danger-color;
+    }
+    &--hairline{
+      border-width: 0;
+      @include border-hairline();
+    }
+  }
+}
+@mixin btn-round ($baseClass) {
+  &.#{$baseClass}{
+    &--mini{
+      border-radius: $button-mini-height / 2;
+    }
+    &--small{
+      border-radius: $button-small-height / 2;
+    }
+    &--large{
+      border-radius: $button-large-height / 2;
+    }
+  }
+}

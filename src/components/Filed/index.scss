@@ -1,0 +1,81 @@
+@import '../../styles/var';
+@import '../../styles/mixin';
+
+.ucee-field{
+  position: relative;
+  display: flex;
+  padding: $field-top-padding $field-up-padding;
+  box-sizing: border-box;
+  color: $text-color;
+  font-size: $field-font-size;
+  line-height: $field-line-height;
+  background-color: $white;
+  overflow: hidden;
+  &__label{
+    flex-shrink: 0;
+    width: $field-label-width;
+    margin-right: $base-margin * 3;
+    text-align: left;
+  }
+  &__value{
+    position: relative;
+    flex: 1;
+    vertical-align: middle;
+    box-sizing: border-box;
+    .ucee-field__control{
+      @include inputRest();
+    }
+  }
+  &__left-icon,
+  &__right-icon,
+  &__right-clear{
+    .ucee-icon{
+      color: $gray-5;
+      display: inline-block;
+      font-size: 16px;
+      line-height: inherit;
+    }
+  }
+  &__left-icon{
+    margin-right: $base-margin;
+  }
+  &__right-clear{
+    .ucee-field__control{
+      padding-right: 20px;
+    }
+  }
+  &__right-icon{
+    padding: 0 8px;
+    margin-right: -8px;
+  }
+  &__right-content{
+    flex-shrink: 0;
+    padding-left: 8px;
+  }
+  &--icon-clear{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  &--border::after{
+    @include hairline('bottom', $gray-3, 16px, 16px);
+  }
+  &--large{
+    padding-top: $field-large-top-padding;
+    padding-bottom: $field-large-top-padding;
+  }
+  &--disabled{
+    color: $gray-5;
+    pointer-events: none;
+    user-select: none;
+    .ucee-field__label{
+      color: $gray-5;
+    }
+  }
+  &--right{
+    .ucee-field__control{
+      text-align: right;
+    }
+  }
+}

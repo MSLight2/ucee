@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon demo test 1`] = `
+Array [
+  <i
+    className="ucee-icon ucee-icon-taxi"
+    style={Object {}}
+  />,
+  <i
+    className="ucee-icon ucee-icon-deliver"
+    style={Object {}}
+  />,
+  <i
+    className="ucee-icon ucee-icon-deliver"
+    style={
+      Object {
+        "fontSize": "26px",
+      }
+    }
+  />,
+  <i
+    className="ucee-icon ucee-icon-deliver"
+    style={
+      Object {
+        "fontSize": "2vw",
+      }
+    }
+  />,
+  <i
+    className="ucee-icon ucee-icon-deliver"
+    style={
+      Object {
+        "color": "#f90",
+        "fontSize": "30px",
+      }
+    }
+  />,
+  <i
+    className="my-icon my-icon-deliver icon-u"
+    style={Object {}}
+  />,
+  <div
+    className="ucee-icon__box"
+  >
+    <span
+      className="ucee-icon--dot"
+    />
+    <i
+      className="ucee-icon ucee-icon-notice"
+      style={
+        Object {
+          "fontSize": "30px",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="ucee-icon__box"
+  >
+    <span
+      className="ucee-icon--badge"
+    >
+      99+
+    </span>
+    <i
+      className="ucee-icon ucee-icon-notice"
+      style={
+        Object {
+          "fontSize": "30px",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="ucee-icon__box"
+  >
+    <span
+      className="ucee-icon--badge"
+    >
+      25
+    </span>
+    <i
+      className="ucee-icon ucee-icon-notice"
+      onClick={[Function]}
+      style={
+        Object {
+          "fontSize": "30px",
+        }
+      }
+    />
+  </div>,
+  <i
+    className="ucee-icon ucee-icon-logo.png"
+    style={Object {}}
+  />,
+  <div
+    className="ucee-icon"
+  >
+    <img
+      alt=""
+      className="ucee-icon__img"
+      src="https://img.yzcdn.cn/vant/user-active.png"
+    />
+  </div>,
+]
+`;

@@ -1,0 +1,40 @@
+@import '../../styles/var';
+@import '../../assets/icons/ucee-icon/index.scss';
+
+$containerClassName: 'ucee-icon__box' !default;
+$basePrefix: 'ucee-icon' !default;
+
+.#{$containerClassName}{
+  position: relative;
+  display: inline-block;
+  font-size: $fone-size-base;
+  .#{$basePrefix}--dot{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: $icon-dot-size;
+    height: $icon-dot-size;
+    background: $red;
+    border-radius: 50%;
+    z-index: 1;
+    transform: translate(50%, -50%);
+  }
+  .#{$basePrefix}--badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 16px;
+    padding: 0 3px;
+    background: $red;
+    border-radius: 16px;
+    line-height: 1.2;
+    color: $white;
+    box-sizing: border-box;
+    transform: translate(50%, -50%);
+  }
+}
+.#{$basePrefix}__img{
+  object-fit: contain;
+  width: 2.5em;
+  height: 2.5em;
+}

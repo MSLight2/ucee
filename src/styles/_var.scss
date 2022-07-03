@@ -1,0 +1,84 @@
+@import './color';
+
+// Component Colors
+$text-color: $gray-8;
+$background-color: $gray-1;
+
+// Font
+$fone-size-base: 12px;
+$font-weight-default: 500;
+$font-weight-bold: bolder;
+$base-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+  Helvetica, Segoe UI, Roboto, Arial, 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft Yahei', sans-serif;
+
+// border
+$border-radius-max: 999px;
+// margin
+$base-margin: 4px;
+// Icon
+$icon-dot-size: 8px;
+// loading
+$loading-base-size: 30px;
+
+// button
+$button-mini-height: 24px;
+$button-small-height: 32px;
+$button-default-height: 44px;
+$button-large-height: 50px;
+$button-mini-padding: 4px;
+$button-small-padding: 8px;
+$button-default-padding: 15px;
+$button-large-padding: 25px;
+$button-default-border-color: $gray-3;
+$button-primary-color: $blue;
+$button-info-color: $green;
+$button-warning-color: $orange;
+$button-danger-color: $red;
+
+// tag
+$tag-default-size: 12px;
+$tag-large-size: 14px;
+$tag-default-padding: 4px;
+$tag-medium-padding: 2px 6px;
+$tag-large-padding: 4px 8px;
+$tag-line-height: 16px;
+$tag-default-color: $gray-6;
+$tag-primary-color: $blue;
+$tag-success-color: $green;
+$tag-warning-color: $orange;
+$tag-danger-color: $red;
+$tag-plain-bg-color: $white;
+
+// cell
+$cell-top-padding: 10px;
+$cell-up-padding:16px;
+$cell-large-top-padding: 12px;
+$cell-line-height: 24px;
+$cell-label-line-height: 18px;
+$cell-label-margin-top: 4px;
+$cell-label-font-size: 12px;
+$cell-font-size: 14px;
+$cell-value-color: $gray-6;
+$cell-icon-color: $gray-6;
+$cell-border-color: $gray-3;
+$cell-img-size: 18px;
+
+// field
+$field-label-width: 6.2em;
+$field-top-padding: 10px;
+$field-up-padding: 16px;
+$field-large-top-padding: 12px;
+$field-line-height: 24px;
+$field-font-size: 14px;
+
+// search
+$search-padding: 10px 12px;
+$search-bg-color: $white;
+$search-content-bg-color: $gray-1;
+$search-action-line-height: 24px;
+
+// rate
+$rate-default-color: $gray-6;
+$rate-default-active-color: $red;
+$rate-padding: 3px;

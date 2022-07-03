@@ -1,0 +1,59 @@
+@import '../../../styles/var';
+@import './mixin.scss';
+
+.ucee-tag{
+  position: relative;
+  display: inline-block;
+  padding: 0 $tag-default-padding;
+  color: $white;
+  font-size: $tag-default-size;
+  line-height: $tag-line-height;
+  border-radius: 2px;
+  &--primary{
+    background-color: $tag-primary-color;
+  }
+  &--success{
+    background-color: $tag-success-color;
+  }
+  &--danger{
+    background-color: $tag-danger-color;
+  }
+  &--warning{
+    background-color: $tag-warning-color;
+  }
+  &--plain{
+    background-color: $white;
+    @include tab-plain('ucee-tag');
+    &::before{
+      content: ' ';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border: 1px solid currentColor;
+      border-radius: inherit;
+      pointer-events: none;
+    }
+  }
+  &--medium{
+    padding: $tag-medium-padding;
+  }
+  &--large{
+    padding: $tag-large-padding;
+  }
+  &--round{
+    border-radius: $border-radius-max;
+  }
+  &--mark{
+    border-radius: 0 $border-radius-max $border-radius-max 0;
+    &-dir{
+      border-radius: $border-radius-max 0 0 $border-radius-max;
+    }
+  }
+  &--close{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

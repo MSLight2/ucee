@@ -1,0 +1,38 @@
+@import '../../styles/var';
+
+.ucee-loading{
+  display: inline-flex;
+  align-items: center;
+  justify-self: center;
+  &__text{
+    color: $gray-6;
+    font-size: 14px;
+    margin-left: 8px;
+    &--vertical{
+      margin: 8px 0 0 0;
+    }
+    &--horizontal{
+      margin: 0 0 0 8px;
+    }
+  }
+  &--vertical{
+    flex-direction: column;
+  }
+  &--horizontal{
+    flex-direction: row;
+  }
+}
+
+div[class^='ucee-loading__']{
+  display: inline-block;
+  width: $loading-base-size;
+  height: $loading-base-size;
+  min-width: $loading-base-size - 10;
+  min-height: $loading-base-size - 10;
+}
+.ucee-loading__spinner{
+  svg rect{
+    width: 5px;
+    height: 18px;
+  }
+}

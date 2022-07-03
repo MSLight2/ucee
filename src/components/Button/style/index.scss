@@ -1,0 +1,122 @@
+@import '../../../styles/var';
+@import './mixin.scss';
+
+.ucee-button{
+    position: relative;
+    display: inline-block;
+    height: $button-default-height;
+    margin: 0;
+    padding: 0 $button-default-padding;
+    box-sizing: border-box;
+    border: 1px solid $button-default-border-color;
+    border-radius: 2px;
+    outline: none;
+    background: $white;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 14px;
+    transition: opacity 0.2s;
+    cursor: pointer;
+
+    &::before{
+      content: ' ';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+      background-color: #000;
+      opacity: 0;
+    }
+    &:active::before{
+      opacity: 0.1;
+    }
+    // type
+    &--default{
+      color: $text-color;
+      background: $white;
+      border-color: $button-default-border-color;
+    }
+    &--primary{
+      color: $white;
+      background-color: $button-primary-color;
+      border-color: $button-primary-color;
+    }
+    &--info{
+      color: $white;
+      background-color: $button-info-color;
+      border-color: $button-info-color;
+    }
+    &--warning{
+      color: $white;
+      background-color: $button-warning-color;
+      border-color: $button-warning-color;
+    }
+    &--danger{
+      color: $white;
+      background-color: $button-danger-color;
+      border-color: $button-danger-color;
+    }
+    &--link{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: $button-primary-color;
+      border-color: $white;
+    }
+    &--plain{
+      background-color: $white;
+      @include btn-plan('ucee-button');
+    }
+    // size
+    &--mini{
+      padding: 0 $button-mini-padding;
+      height: $button-mini-height;
+    }
+    &--small{
+      padding: 0 $button-small-padding;
+      height: $button-small-height;
+    }
+    &--large{
+      padding: 0 $button-large-padding;
+      height: $button-large-height;
+    }
+    // raduis
+    &--square{
+      border-radius: 0;
+    }
+    &--round{
+      border-radius: $button-default-height / 2;
+      @include btn-round('ucee-button');
+    }
+    &--circle{
+      border-radius: 50%;
+    }
+    // other
+    &--block{
+      display: block;
+    }
+    &--disabled{
+      opacity: 0.5;
+      pointer-events: none;
+      cursor: not-allowed;
+    }
+    &--icon{
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &--loading{
+      pointer-events: none;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__img{
+      width: 1em;
+      height: 1em;
+      object-fit: contain;
+      margin-right: .4em;
+    }
+}
