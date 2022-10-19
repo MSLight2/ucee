@@ -1,3 +1,4 @@
+@use "sass:math";
 @import '../../../styles/mixin';
 
 @mixin border-hairline {
@@ -31,13 +32,13 @@
 @mixin btn-round ($baseClass) {
   &.#{$baseClass}{
     &--mini{
-      border-radius: $button-mini-height / 2;
+      border-radius: math.div($button-mini-height, 2);
     }
     &--small{
-      border-radius: $button-small-height / 2;
+      border-radius: math.div($button-small-height, 2);
     }
     &--large{
-      border-radius: $button-large-height / 2;
+      border-radius: math.div($button-large-height, 2);
     }
   }
 }

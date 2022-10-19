@@ -1,6 +1,5 @@
 import React from 'react';
-import Icon from '../../Icon';
-import Checkbox from '../index';
+import { Icon, Checkbox } from 'ucee-mobile';
 
 const CheckboxDemo: React.FC = () => {
   return (

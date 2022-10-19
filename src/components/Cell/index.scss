@@ -11,13 +11,14 @@
   font-size: $cell-font-size;
   background-color: $white;
   color: $text-color;
+  text-decoration: none;
   overflow: hidden;
 
   &::after {
     @include hairline('bottom', $gray-3, 16px, 16px);
   }
   &:last-child::after,
-  &--borderless{
+  &--borderless::after{
     display: none;
   }
   &__title,

@@ -1,5 +1,5 @@
 import React from 'react';
-import Tag from '../index';
+import { Tag } from 'ucee-mobile';
 
 const TagDemo = ():JSX.Element => {
   return (

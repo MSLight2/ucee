@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "rootDirs": ["src"],
+    "target": "ES6",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "allowJs": true,
+    "declaration": false,
+    "emitDeclarationOnly": false,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "typeRoots": ["./node_modules/@types"],
+    "lib": ["ES2016", "DOM"],
+    "paths": {
+      "ucee-mobile": ["src/components.ts"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "lib", "es", "dist", ".dumi"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "resolveJsonModule": true,
+      "noImplicitAny": false
+    }
+  }
+}

@@ -1,17 +1,13 @@
 import React from 'react';
-import CircleRing from '../components/CircleRing';
-import CircleRolling from '../components/CircleRolling';
-import DanceBar from '../components/DanceBar';
-import Spinner from '../components/Spinner';
-import Loading from '../index'
+import { Loading, LoadingIcon } from 'ucee-mobile';
 
 const LoadingDemo = ():JSX.Element => {
   return (
     <>
-      <Spinner color="#f90" />
-      <CircleRolling color="red" />
-      <CircleRing color="blue" />
-      <DanceBar color="green" />
+      <LoadingIcon.Spinner color="#f90" />
+      <LoadingIcon.CircleRolling color="red" />
+      <LoadingIcon.CircleRing color="blue" />
+      <LoadingIcon.DanceBar color="green" />
       <div></div>
       <Loading />
       <Loading hiddenText />

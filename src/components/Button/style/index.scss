@@ -1,3 +1,4 @@
+@use "sass:math";
 @import '../../../styles/var';
 @import './mixin.scss';
 
@@ -64,6 +65,7 @@
       justify-content: center;
       color: $button-primary-color;
       border-color: $white;
+      user-select: none;
     }
     &--plain{
       background-color: $white;
@@ -87,7 +89,7 @@
       border-radius: 0;
     }
     &--round{
-      border-radius: $button-default-height / 2;
+      border-radius: math.div($button-default-height, 2);
       @include btn-round('ucee-button');
     }
     &--circle{
@@ -96,6 +98,7 @@
     // other
     &--block{
       display: block;
+      width: 100%;
     }
     &--disabled{
       opacity: 0.5;
@@ -106,6 +109,7 @@
       display: inline-flex;
       justify-content: center;
       align-items: center;
+      vertical-align: middle;
     }
     &--loading{
       pointer-events: none;

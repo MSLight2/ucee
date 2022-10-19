@@ -1,0 +1,6 @@
+**/*.svg
+**/*.ejs
+**/*.html
+package.json
+dumi/.umi
+dumi/.umi-production

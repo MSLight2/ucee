@@ -4,7 +4,6 @@ import Spinner from './components/Spinner';
 import CircleRing from './components/CircleRing';
 import CircleRolling from './components/CircleRolling'
 import DanceBar from './components/DanceBar'
-import './index.scss';
 
 export type LoadingType = 'default' | 'ring' | 'rolling' | 'bar';
 

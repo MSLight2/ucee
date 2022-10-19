@@ -1,6 +1,5 @@
 import React from 'react';
-import Cell from '../../Cell';
-import CellGroup from '../index';
+import { Cell, CellGroup } from 'ucee-mobile'
 
 const CellGroupDemo = ():JSX.Element => {
   return (

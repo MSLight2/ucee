@@ -1,6 +1,5 @@
 import React from 'react';
-import Icon from '../../Icon';
-import Radio from '../index';
+import { Icon, Radio } from 'ucee-mobile';
 
 const RadioDemo = ():JSX.Element => {
   return (

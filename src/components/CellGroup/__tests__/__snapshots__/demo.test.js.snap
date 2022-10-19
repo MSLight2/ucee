@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CellGroup demo test 1`] = `
+Array [
+  <div
+    className="ucee-cell-group"
+  >
+    <div
+      className="ucee-cell"
+      onClick={[Function]}
+    >
+      <div
+        className="ucee-cell__title"
+      >
+        <span>
+          单元格
+        </span>
+      </div>
+    </div>
+    <div
+      className="ucee-cell"
+      onClick={[Function]}
+    >
+      <div
+        className="ucee-cell__title"
+      >
+        <span>
+          单元格
+        </span>
+      </div>
+      <div
+        className="ucee-cell__value"
+      >
+        内容
+      </div>
+    </div>
+  </div>,
+  <div
+    className="ucee-cell-group"
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <div
+      className="ucee-cell"
+      onClick={[Function]}
+    >
+      <div
+        className="ucee-cell__title"
+      >
+        <span>
+          单元格
+        </span>
+      </div>
+    </div>
+    <div
+      className="ucee-cell"
+      onClick={[Function]}
+    >
+      <div
+        className="ucee-cell__title"
+      >
+        <span>
+          单元格
+        </span>
+      </div>
+      <div
+        className="ucee-cell__value"
+      >
+        内容
+      </div>
+    </div>
+  </div>,
+]
+`;

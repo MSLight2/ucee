@@ -1,6 +1,5 @@
 import React from 'react';
-import Icon from '../../Icon';
-import Rate from '../index';
+import { Icon, Rate  } from 'ucee-mobile';
 
 const RateDemo = ():JSX.Element => {
   return (

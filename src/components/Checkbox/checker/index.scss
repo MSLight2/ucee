@@ -1,3 +1,4 @@
+@use "sass:math";
 @import '../../../styles/var';
 
 $checkerSize: 1em !default;
@@ -44,8 +45,8 @@ $checkerSize: 1em !default;
       transition: all .3s cubic-bezier(.78,.14,.15,.86);
       &-active{
         position: relative;
-        width: $checkerSize / 2;
-        height: $checkerSize / 2;
+        width: math.div($checkerSize, 2);
+        height: math.div($checkerSize, 2);
         border-radius: 50%;
         background: $blue;
         transform: scale(0);
@@ -65,6 +66,7 @@ $checkerSize: 1em !default;
       margin-left: 8px;
       line-height: 20px;
       color: $gray-8;
+      font-size: 17px;
     }
     &--disabled{
       pointer-events: none;

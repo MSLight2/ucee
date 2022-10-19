@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+/lib
+/report
+/dist
 # dependencies
 /node_modules
 /.pnp
@@ -27,3 +30,6 @@ yarn-error.log*
 
 # eslint
 .eslintcache
+
+#dumi
+dumi/.umi

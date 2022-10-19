@@ -15,7 +15,7 @@ export interface CellProps {
   center?: boolean
   url?: string
   isLink?: boolean
-  arrowDirection?: 'left' | 'up' | 'down'
+  arrowDirection?: 'right' | 'up' | 'down'
   onClick?: React.MouseEventHandler<HTMLElement>
   className?: string
   titleClass?: string
@@ -35,7 +35,7 @@ const Cell: React.FC<CellProps> = (props) => {
     center,
     url,
     isLink,
-    arrowDirection = 'left',
+    arrowDirection = 'right',
     onClick,
     className,
     titleClass,

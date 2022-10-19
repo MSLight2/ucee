@@ -1,6 +1,5 @@
 import React from 'react';
-import Checkbox from '../../Checkbox';
-import CheckboxGroup from '../index';
+import { CheckboxGroup, Checkbox } from 'ucee-mobile';
 
 const CheckboxGroupDemo: React.FC = () => {
   const options = [

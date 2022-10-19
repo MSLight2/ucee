@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cell should render custom title width 1`] = `
+<div
+  className="ucee-cell"
+  onClick={[Function]}
+>
+  <div
+    className="ucee-cell__title"
+    style={
+      Object {
+        "flexBasis": "300px",
+        "flexGrow": 0,
+      }
+    }
+  >
+    <span>
+      单元格
+    </span>
+  </div>
+  <div
+    className="ucee-cell__value"
+  >
+    内容
+  </div>
+</div>
+`;
+
+exports[`Cell should render down or up arrow icon 1`] = `
+Array [
+  <div
+    className="ucee-cell"
+    onClick={[Function]}
+  >
+    <div
+      className="ucee-cell__title"
+    >
+      <span>
+        单元格
+      </span>
+    </div>
+    <div
+      className="ucee-cell__value"
+    >
+      内容
+    </div>
+  </div>,
+  <div
+    className="ucee-cell"
+    onClick={[Function]}
+  >
+    <div
+      className="ucee-cell__title"
+    >
+      <span>
+        单元格
+      </span>
+    </div>
+    <div
+      className="ucee-cell__value"
+    >
+      内容
+    </div>
+  </div>,
+]
+`;

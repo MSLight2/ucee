@@ -24,7 +24,7 @@
 }
 
 div[class^='ucee-loading__']{
-  display: inline-block;
+  display: inline-flex;
   width: $loading-base-size;
   height: $loading-base-size;
   min-width: $loading-base-size - 10;

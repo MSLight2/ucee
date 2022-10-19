@@ -1,6 +1,5 @@
 import React from 'react';
-import Radio from '../../Radio';
-import RadioGroup from '../index';
+import { Radio, RadioGroup } from 'ucee-mobile';
 
 const RadioGroupDemo = ():JSX.Element => {
   const options = [

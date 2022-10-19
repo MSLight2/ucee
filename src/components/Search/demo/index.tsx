@@ -1,7 +1,5 @@
 import React from 'react';
-import Button from '../../Button';
-import Icon from '../../Icon';
-import Search from '../index';
+import { Icon, Search , Button } from 'ucee-mobile';
 
 const SearchDemo = ():JSX.Element => {
   return (

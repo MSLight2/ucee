@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "ucee-mobile": ["src/components.ts"],
+      "demos": ["src/demos/index.ts"]
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
-import Icon from '../index';
 import logo from '../../../assets/logo.png';
+import { Icon } from 'ucee-mobile';
 
 const IconDemo = ():JSX.Element => {
   return (

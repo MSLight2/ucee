@@ -1,7 +1,6 @@
 import React from 'react';
 import { IconTypeProps } from '../..';
 import { transformSize } from '../../../../utils';
-import '../../index.scss';
 
 const DanceBar: React.FC<IconTypeProps> = ({
   color = '#c8c9cc',
