@@ -29,6 +29,7 @@
     "build": "gulp",
     "start:doc": "cross-env APP_ROOT=dumi dumi dev",
     "build:doc": "cross-env APP_ROOT=dumi dumi build",
+    "deploy": "gh-pages -d ./dumi/dist",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
   },
