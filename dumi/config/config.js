@@ -1,4 +1,6 @@
 export default {
+  base: '/ucee',
+  publicPath: '/ucee/',
   title: 'Ucee Mobile',
   mode: 'site',
   logo: 'https://i.postimg.cc/X76H9gs7/ucee-logo.png',
