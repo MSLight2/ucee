@@ -67,6 +67,7 @@
     "dumi": "^1.1.48",
     "dumi-theme-mobile": "^1.1.25",
     "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-postcss": "^9.0.1",
