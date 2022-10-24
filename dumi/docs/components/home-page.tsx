@@ -11,8 +11,8 @@ export default () => {
         <div className={styles['ct-text']}>一个基于React的移动端组件库，</div>
         <div className={styles['ct-text']}>UI来自Vant UI。</div>
         <div className={styles.buttons}>
-          <a href="guide/start">开始使用</a>
-          <a href="components/button">组件列表</a>
+          <a href="/ucee/guide/start">开始使用</a>
+          <a href="/ucee/components/button">组件列表</a>
         </div>
       </div>
       <div className={styles['content-right']}>
