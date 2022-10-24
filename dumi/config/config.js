@@ -23,7 +23,9 @@ export default {
   chainWebpack(memo) {
     memo.plugins.delete('copy');
   },
-  exportStatic: {},
+  exportStatic: {
+    htmlSuffix: true
+  },
   dynamicImport: {},
   theme: {
     '@c-primary': '#ff8f29',

@@ -29,7 +29,7 @@
     "build": "gulp",
     "start:doc": "cross-env APP_ROOT=dumi dumi dev",
     "build:doc": "cross-env APP_ROOT=dumi dumi build",
-    "build:page": "git subtree push --prefix=dumi/dist origin gh-pages",
+    "build:push": "git subtree push --prefix=dumi/dist origin gh-pages",
     "deploy": "gh-pages -d ./dumi/dist",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
