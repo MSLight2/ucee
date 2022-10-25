@@ -1,5 +1,9 @@
 ### 一个React组件库，UI是模仿Vant。
-项目使用CRA创建。使用Jest测试组件
+项目使用CRA创建。使用Jest测试组件，使用dumi生成文档。
+
+东西虽小，但五脏俱全。
+
+[使用文档](https://mslight2.github.io/ucee/)
 
 ## 已完成组件
 - [x] Button
@@ -19,19 +23,3 @@
 - [x] Cell
 
 - 已完成的组件测试覆盖率为100%
-
-> TODO: 打包 & 自动生成使用文档
-
-## FAQ
-## 包安装问题：
-- yarn安装node-sass失败
-```js
-// 执行
-yarn config set sass_binary_site https://npm.taobao.org/mirrors/node-sass/ -g 
-yarn
-```
-- 切换源依然安装失败，启用cnpm
-```js
-npm install -g cnpm --registry=https://registry.npm.taobao.org
-cnpm i
-```
