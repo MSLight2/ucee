@@ -23,7 +23,7 @@ function clean() {
   return del('./lib/**')
 }
 
-function cleanInex() {
+function delIndex() {
   return del('./src/index.ts')
 }
 
@@ -332,5 +332,5 @@ exports.default = gulp.series(
   buildBundles,
   buildCompatibleUMD,
   buildUmdWebpack,
-  cleanInex,
+  delIndex,
 )
