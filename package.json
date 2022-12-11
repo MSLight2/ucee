@@ -1,6 +1,18 @@
 {
   "name": "ucee-mobile",
   "version": "0.1.0",
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "build:ui": "gulp",
+    "start:doc": "cross-env APP_ROOT=dumi dumi dev",
+    "build:doc": "cross-env APP_ROOT=dumi dumi build",
+    "build:push": "git subtree push --prefix=dumi/dist origin gh-pages",
+    "deploy": "gh-pages -d ./dumi/dist",
+    "pub": "npm publish ./lib",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
   "dependencies": {
     "@babel/preset-env": "^7.19.4",
     "@babel/preset-react": "^7.18.6",
@@ -21,18 +33,6 @@
     "sass-loader": "^13.0.2",
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
-  },
-  "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "build:ui": "gulp",
-    "start:doc": "cross-env APP_ROOT=dumi dumi dev",
-    "build:doc": "cross-env APP_ROOT=dumi dumi build",
-    "build:push": "git subtree push --prefix=dumi/dist origin gh-pages",
-    "deploy": "gh-pages -d ./dumi/dist",
-    "pub": "npm publish ./lib",
-    "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": [
@@ -61,6 +61,14 @@
   "typings": "./es/index.d.ts",
   "unpkg": "./umd/ucee-mobile.js",
   "GravityCDN": "./umd/ucee-mobile.js",
+  "files": [
+    "./lib"
+  ],
+  "homepage": "https://mslight2.github.io/ucee/",
+  "repository": {
+    "url": "https://github.com/MSLight2/ucee",
+    "type": "git"
+  },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.18.6",
     "@statoscope/webpack-plugin": "^5.24.0",
